@@ -1,0 +1,44 @@
+{
+  "name": "MoviePoster",
+  "version": "1.0.0",
+  "description": "An exercise about NeutrinoJS, Bootstrap 4 and MovieDB API",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "neutrino build",
+    "start": "neutrino start",
+    "fix": "neutrino lint --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoDvg"
+  },
+  "keywords": [
+    "neutrino",
+    "bootstrap",
+    "jquery",
+    "sass",
+    "exercise"
+  ],
+  "author": "Leandro <leandro.frigerio@devugees.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leoDvg/issues"
+  },
+  "homepage": "https://github.com/leoDvg",
+  "devDependencies": {
+    "@neutrinojs/airbnb-base": "^8.1.1",
+    "@neutrinojs/web": "^8.1.1",
+    "neutrino": "^8.1.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.13.0"
+  }
+}
